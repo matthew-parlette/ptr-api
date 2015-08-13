@@ -1,3 +1,14 @@
+# MONGO_HOST = 'localhost'
+# MONGO_PORT = 27017
+MONGO_USERNAME = 'ptr'
+MONGO_PASSWORD = 'ptr'
+MONGO_DBNAME = 'ptr'
+
+RESOURCE_METHODS = ['GET','POST','DELETE']
+ITEM_METHODS = ['GET','PATCH','PUT','DELETE']
+
+DATE_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
+
 bodyweight = {
     'url': 'body/weight',
     'schema': {
